@@ -10,7 +10,7 @@ ElasticSearch.
 <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">elasticsearch-102</span>
 par
 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/nosql-bootcamp/elasticsearch-101" property="cc:attributionName" rel="cc:attributionURL">Benjamin
-CAVY et Sébastien PRUNIER</a> est distribué sous les termes de la licence
+CAVY, Sébastien PRUNIER et Chris WOODROW</a> est distribué sous les termes de la licence
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
 Commons - Attribution - NonCommercial - ShareAlike</a>.
 
