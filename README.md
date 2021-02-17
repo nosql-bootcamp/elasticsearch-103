@@ -17,7 +17,7 @@ Commons - Attribution - NonCommercial - ShareAlike</a>.
 ## Configuration
 
 Dans le fichier de configuration
-`~/progs/elasticsearch-7.5.2/config/elasticsearch.yml`, ajouter la ligne :
+`~/progs/elasticsearch-7.10.1/config/elasticsearch.yml`, ajouter la ligne :
 
 ```yml
 node.max_local_storage_nodes: 2
@@ -29,7 +29,7 @@ Lancer deux instances elastic dans deux shell différents à l'aide de la
 commande.
 
 ```bash
-~/progs/elasticsearch-7.5.2/bin/elasticsearch
+~/progs/elasticsearch-7.10.1/bin/elasticsearch
 ```
 
 Les deux instances sont déployées par défaut sur les ports `9200` et `9201`.
