@@ -45,7 +45,7 @@ curl -XGET http://localhost:9200/imdb/_count
 ```
 
 Coupez une des deux instances (avec CTRL + C dans un des deux shells), puis
-exécuter à nouveau cette commande.
+exécutez à nouveau cette commande.
 
 On constate qu'il n'y a pas eu de perte de données, car elasticsearch répartit
 les shards de manières à ce que chaque instance ait :
@@ -64,7 +64,7 @@ PUT imdb/_settings
 }
 ```
 
-Cette commande désactive la réplication pour l'index `imdb` (ne faite pas ça
+Cette commande désactive la réplication pour l'index `imdb` (ne faites pas ça
 chez vous !).
 
 Stoppez une des deux instances (comme lors de l'étape précédente), et comptez le
@@ -75,4 +75,4 @@ curl -XGET http://localhost:9200/imdb/_count
 ```
 
 On constate cette fois-ci une perte de données, car les données stockées sur les
-shards de l'instance arrêtées ne sont plus répliquées sur l'instance restante.
+shards de l'instance arrêtée ne sont plus répliquées sur l'instance restante.
